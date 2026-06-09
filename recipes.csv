@@ -1,0 +1,13 @@
+name,category,price,cooking_time,ingredients,calories
+Tomato Soup,soup,6.5,30,tomato onion garlic basil cream,180
+Chicken Noodle Soup,soup,7.0,40,chicken noodles carrot celery onion,250
+Garlic Bread,starter,4.5,15,bread butter garlic parsley,220
+Stuffed Mushrooms,starter,8.0,25,mushrooms cheese breadcrumbs garlic,190
+Grilled Chicken,main dish,12.5,35,chicken garlic lemon olive oil pepper,420
+Beef Steak,main dish,18.0,25,beef butter garlic salt pepper,550
+Vegetable Pasta,main dish,10.5,30,pasta tomato zucchini pepper cheese,480
+Margherita Pizza,main dish,11.0,40,dough tomato mozzarella basil oil,600
+Chocolate Cake,dessert,7.5,50,flour sugar cocoa eggs butter,520
+Fruit Salad,dessert,5.0,10,apple banana orange grapes honey,150
+Pancakes,breakfast,6.0,20,flour milk eggs sugar butter,350
+Omelette,breakfast,5.5,15,eggs cheese onion pepper salt,300
