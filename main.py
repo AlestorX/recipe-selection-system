@@ -7,6 +7,7 @@ from performance import run_performance_analysis
 # ---------------------------------------------------------------------------
 # Small helper functions for safe input
 # ---------------------------------------------------------------------------
+##################################################################
 def ask_float(message):
     """Ask the user for a number with a decimal point. Repeat until valid."""
     while True:
@@ -25,6 +26,7 @@ def ask_int(message):
             return int(text)
         except ValueError:
             print("Please enter a valid whole number, for example 30")
+##################################################################
 
 
 def show_list(recipes):
@@ -70,7 +72,7 @@ def show_menu():
     print("\n15. Save recipes")
     print("0. Exit")
 
-
+ ##################################################################################
 def main():
     """The main program loop."""
     manager = RecipeManager()
