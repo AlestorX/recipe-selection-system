@@ -32,6 +32,7 @@ class Recipe:
         return self._calories
 
     # --- Logical methods (used in the logic rule and the truth table) ---
+    ######################################################################
     def is_cheap(self):
         """P = cheap: price is 10 or less."""
         return self._price <= 10
@@ -47,7 +48,7 @@ class Recipe:
     def is_recommended(self):
         """A recipe is recommended only when cheap AND quick AND healthy."""
         return self.is_cheap() and self.is_quick() and self.is_healthy()
-
+ ########################################################################
     # --- Display methods ---
     def show_short(self):
         """Print a short one-line summary of the recipe."""

@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-
+#########################################################################
 class SortingAlgorithm(ABC):
     """Abstract base class. Every sorting algorithm must have a sort method."""
 
@@ -8,7 +8,7 @@ class SortingAlgorithm(ABC):
     def sort(self, recipes, key):
         """Sort and return a list of recipes by the given key."""
         pass
-
+ ############################################################################
     def get_value(self, recipe, key):
         """Helper: read the primary value (price or cooking_time) of a recipe."""
         if key == "price":
@@ -32,7 +32,7 @@ class SortingAlgorithm(ABC):
         # True counts as 1 and False as 0, so recommended (True) wins.
         return a.is_recommended() and not b.is_recommended()
 
-
+#########################################################################
 class LoopSort(SortingAlgorithm):
     """Insertion sort built with simple loops."""
 
@@ -82,3 +82,4 @@ class RecursiveSort(SortingAlgorithm):
         result.extend(left[i:])
         result.extend(right[j:])
         return result
+ ##########################################################################

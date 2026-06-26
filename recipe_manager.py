@@ -11,7 +11,7 @@ CSV_FILE = "recipes.csv"
 # The column order we expect inside recipes.csv.
 CSV_HEADER = ["name", "category", "price", "cooking_time", "ingredients", "calories"]
 
-
+##
 class RecipeManager:
     """Keeps the list of recipes and handles loading, saving and searching."""
 
@@ -21,10 +21,10 @@ class RecipeManager:
         # Sorting helpers so the manager can sort by price or cooking time.
         self._loop_sorter = LoopSort()
         self._recursive_sorter = RecursiveSort()
-
+##
     def get_recipes(self):
         return self._recipes
-
+ #################################################################################
     def load_recipes(self):
         """Load recipes from the CSV file at program start."""
         self._recipes = []
@@ -59,7 +59,7 @@ class RecipeManager:
             for recipe in self._recipes:
                 writer.writerow(recipe.to_row())
         print("Saved", len(self._recipes), "recipes to", CSV_FILE)
-
+ ######################################################################################
     def show_all(self):
         """Print a short line for every recipe."""
         if not self._recipes:
