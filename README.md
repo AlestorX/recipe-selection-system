@@ -150,3 +150,7 @@ Then choose options from the menu to test adding, searching, sorting, and recomm
 9 sorts recipes by price.
 10 sorts recipes by cooking time.
 11 shows recommended recipes.
+
+## Main Python concepts used
+
+This project uses classes, objects, methods, loops, conditionals, error handling, CSV file handling, sorting algorithms, and simple Boolean logic.
