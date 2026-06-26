@@ -142,3 +142,11 @@ Run the program with:
 python main.py
 
 Then choose options from the menu to test adding, searching, sorting, and recommending recipes.
+
+## Example menu options
+
+1 shows all recipes.
+3 adds a new recipe.
+9 sorts recipes by price.
+10 sorts recipes by cooking time.
+11 shows recommended recipes.
