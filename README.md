@@ -134,3 +134,11 @@ The program tries not to crash:
 - Save recipes automatically after every change.
 - Add a simple search that matches more than one ingredient at a time.
 - Add a small graphical interface later.
+
+## How to test
+
+Run the program with:
+
+python main.py
+
+Then choose options from the menu to test adding, searching, sorting, and recommending recipes.
